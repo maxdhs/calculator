@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Appointments</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles2.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts2.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Appointments</h1>
+      
+      <form id="name">
+        <div class="form-group">
+          <label for="name1">Name:</label>
+          <input id="name1" class="form-control" type="text">
+        </div>
+      </form>
+
+      <form id="description">
+        <div class="form-group">
+          <label for="description1">Description:</label>
+          <input id="description1" class="form-control" type="text">
+        </div>
+      </form>
+
+      <form id="date">
+        <div class="form-group">
+          <label for="date1">Date:</label>
+          <input id="date1" class="form-control" type="text">
+        </div>
+      </form>
+
+      <form id="time">
+        <div class="form-group">
+          <label for="time1">Time:</label>
+          <input id="time1" class="form-control" type="text">
+        </div>
+      </form>
+
+        <!-- Button to Open the Modal -->
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Submit</button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+        
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Congratulations</h4>
+            </div>
+            <div class="modal-body">
+            <p>Your submission is successful..</p>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+        
+        </div>
+    </div>         
+    </div><br><br><br>
+    <h1>What is your name?</h1>
+    <form id="name">
+        <div class="form-group">
+            <label for="name1">Name:</label>
+            <input id="name1" class="form-control" type="text">
+        </div>
+    </form>
+
+
+    <h1>What is your favorite food?</h1>
+    <select class="form-control" id="food">
+        <option value="thai">Thai Food</option>
+        <option value="mexican">Mexican Food</option>
+        <option value="indian">Indian Food</option>
+        <option value="chinese">Chinese Food</option>
+    </select><br>
+
+    <h1>What is your favorite music?</h1>
+    <div class="radio">
+            <label>
+              <input type="radio" name="music-type" value="country" checked>
+              Country
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="music-type" value="tejano">
+              Tejano
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="music-type" value="classical">
+              Classical
+            </label>
+          </div>
+  </body>
+</html>
